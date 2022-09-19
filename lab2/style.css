@@ -1,0 +1,63 @@
+div {
+    float: left; }
+
+#main_menu {
+    float: left; }
+
+#main_menu ul {
+    margin: 20px; /* отступ ленты меню сверху*/
+    padding: 12px; /* отступ ленты меню слева*/
+    list-style: none; }
+
+#main_menu ul li {
+    position: relative;
+    float: left; }
+
+#main_menu li ul {
+    position: absolute;
+    left: 0;
+    top: 29px;
+    display: none;
+    float: left; }
+
+#main_menu ul li a {
+    float: left;
+    color: black; /*Цвет текста глав меню */
+    width: 100px; /*Длина ленты глав меню */
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background: plum; /*цвет фона гл меню*/ }
+
+#main_menu li ul li a {
+    padding: 5px 0 3px 10px;
+    text-align: left;
+    font-size: 12px;
+    width: 100px;
+    background: #EEEEEE; /*Цвет поля группы выбр-го пoдменю*/ }
+
+#settings img { /*Графич-й эл-т */
+    padding: 18px;
+    height: 100px; /*Высота графич эл-та */
+    width: 100px;
+    font-size: 10px;
+    line-height: 24px; }
+
+#list1 a:hover {
+    background: black;
+    color: red; }
+
+#list1 ul li a:hover {
+    background: black;
+    color: red; }
+
+#list2 a:hover {
+    background: tan;
+    color: gold; }
+
+#list2 ul li a:hover {
+    background: tan;
+    color: gold; }
+
+#main_menu li:hover ul, #main_menu li.over ul {
+    display: block; }
