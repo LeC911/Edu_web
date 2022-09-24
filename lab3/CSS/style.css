@@ -1,0 +1,90 @@
+div#content {
+    width: 80%;
+    border: none;
+    margin: auto;
+    font-family: Verdana;
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+header, footer {
+    padding: 2em;
+    color: white;
+    background-color: #007196;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    height: 40px;
+    border: solid 2px #007196;
+    background-color: #f3f0f1;
+    padding: 1em;
+    text-align: center;
+    list-style-type: none;
+    background-color: #66cdaa;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 7px;
+    color: white;
+    border: solid white 2px;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+
+div #logo img {
+    width: 350px;
+    height: 150px;
+    float: left;
+}
+
+#main {
+    padding: 1em;
+    color: midnightblue;
+    font-weight: normal;
+    text-align: justify;
+}
+
+table#tours {
+    width: 80%;
+    margin: auto;
+}
+
+table#tours td {
+    text-align: left;
+    border: 2px solid #007196;
+}
+
+table#form {
+    width: 80%;
+    margin: auto;
+}
+
+table#form td {
+    text-align: center;
+    border: 2px solid #007196;
+}
+
+#tours {
+    text-align: left;
+}
+
+.tour {
+    width: 31%;
+    border: #007196 solid 2px;
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    float: left;
+}
+
+.tour img {
+    width: max-content;
+    height: 150px;
+}

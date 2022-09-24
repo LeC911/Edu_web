@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Сайт туристической компании</title>
+  <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="content">
+  <header>
+    <div id="logo">
+      <img src="imgs/logo.png">
+    </div>
+    <div id="name">
+      <h1>Путешествуй с нами!</h1>
+    </div>
+  </header>
+  <nav>
+    <a href="index.html">
+      Главная страница
+    </a>
+    <a href="tours.html">
+      Наши туры
+    </a>
+    <a href="contacts.html">
+      О нас
+    </a>
+  </nav>
+  <div id="main">
+    <p>
+      Наш адрес: г. Белогорск, ул. Ракетная, 18.
+    </p>
+    <p>
+      Для связи с нами заполните форму:
+    <form method="get" action="#">
+    <table id="form">
+      <tr>
+        <td>Введите имя:</td>
+        <td><input name="name"></td>
+      </tr>
+      <tr>
+        <td>Введите номер телефона:</td>
+        <td><input name="tel"></td>
+      </tr>
+      <tr>
+        <td>Введите email:</td>
+        <td><input name="email"></td>
+      </tr>
+      <tr>
+        <td>Введите сообщение (необязательно):</td>
+        <td><textarea name="text" rows="3"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <input name="send" type="submit" value="Отправить">
+        </td>
+      </tr>
+    </table>
+  </form>
+  </div>
+  <footer>
+    Сайт создан в учебных целях.
+  </footer>
+</div>
+</body>
+</html>
