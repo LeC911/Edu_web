@@ -2,52 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Сайт туристической компании</title>
-    <style>
-        div#content {
-            width: 80%;
-            border: none;
-            margin: auto;
-        }
-
-        header, footer {
-            padding: 2em;
-            color: white;
-            background-color: #007196;
-            clear: left;
-            text-align: center;
-        }
-
-        nav {
-            height: 40px;
-            border: solid #333333;
-            padding: 1em;
-            text-align: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            padding: 1em;
-        }
-
-        div #logo img {
-            width: 200px;
-            height: 100px;
-            float: left;
-        }
-
-        #main {
-            padding: 1em;
-        }
-    </style>
+    <title>Туристическая компания</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="content">
         <header>
             <div id="logo">
-                <img src="imgs/img.png">
+                <img src="imgs/logo.png">
             </div>
-            <div id="name">Путешествуй с нами!</div>
+            <div id="name">
+                <h1>Путешествуй с нами!</h1>
+            </div>
         </header>
         <nav>
             <a href="index.html">
@@ -65,17 +31,36 @@
                 Концепция отдыха с нашей компанией — это отдых в новом формате,
                 где учтены интересы всех поколений.
             </p>
-            <p>
-                Наши основные направления:
-                <ul>
-                    <li>Крым</li>
-                    <li>Кавказ</li>
-                    <li>Алтай</li>
-                </ul>
-            </p>
-            <p>
-                Акции и скидки
-            </p>
+        </div>
+        <div id="tours">
+            <p>Акции и скидки</p>
+            <div class="tour">
+                <p>Крым</p>
+                <img src="imgs/crimea.png">
+                <p>
+                    <a class="actia" href="#!">
+                        Подробнее об акции
+                    </a>
+                </p>
+            </div>
+            <div class="tour">
+                <p>Кавказ</p>
+                <img src="imgs/kavkaz.png">
+                <p>
+                    <a class="actia" href="#!">
+                        Подробнее об акции
+                    </a>
+                </p>
+            </div>
+            <div class="tour">
+                <p>Алтай</p>
+                <img src="imgs/altai.png">
+                <p>
+                    <a class="actia" href="#!">
+                        Подробнее об акции
+                    </a>
+                </p>
+            </div>
         </div>
         <footer>
             Сайт создан в учебных целях.
