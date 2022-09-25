@@ -95,3 +95,8 @@ table#tours {
 .btn {
     background-color: #007196;
 }
+
+#mainContacts {
+    font-weight: normal;
+    text-align: left;
+}
